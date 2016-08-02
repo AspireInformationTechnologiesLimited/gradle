@@ -1,0 +1,16 @@
+plugins {
+  id 'java'
+  id 'groovy'
+  id 'eclipse'
+}
+
+repositories {
+    mavenCentral()
+}
+
+version = '3.2.1'
+sourceCompatibility = '1.8'
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.4.4'
+}
